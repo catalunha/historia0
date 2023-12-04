@@ -26,6 +26,6 @@ Future<void> printGamer(
     stdout.write(letra);
   }
   await Future.delayed(Duration(seconds: 1));
-  stdout.write('\x1B[0m\n');
+  print('\x1B[0m');
   await Future.delayed(Duration(seconds: 1));
 }
